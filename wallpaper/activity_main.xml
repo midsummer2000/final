@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rView"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-9dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Changing wallpaper Application"
+        android:textAlignment="center"
+        android:textColor="#3E0C0C"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/click1"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="547dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="CLICK HERE TO CHANGE WALLPAPER"
+        android:textColor="#090955"
+        />
+
+
+</RelativeLayout>
